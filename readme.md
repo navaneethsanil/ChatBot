@@ -45,7 +45,7 @@ Ensure you are using Python 3.7 or later.
 
 3. Run the script:
    ```bash
-   python chatbot.py
+   python main.py
    ```
 
 ---
