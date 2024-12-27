@@ -19,9 +19,6 @@ This project demonstrates how to build a simple chatbot that uses OpenAI's ChatG
 ### 2. Required Libraries
 Install the following Python libraries:
 
-```bash
-pip install openai requests beautifulsoup4 python-dotenv
-```
 
 ### 3. Python Version
 Ensure you are using Python 3.7 or later.
@@ -37,13 +34,18 @@ Ensure you are using Python 3.7 or later.
    ```
 
 2. Set up your environment:
+   ```bash
+   python -m venv env
+   source env/scripts/activate
+   pip install openai requests beautifulsoup4 python-dotenv
+   ```
    - Add your `OPENAI_API_KEY` to the environment:
      ```bash
      export OPENAI_API_KEY="your_api_key_here"
      ```
    - Alternatively, create a `.env` file and add your key if using a library like `python-dotenv`.
 
-3. Run the script:
+4. Run the script:
    ```bash
    python main.py
    ```
